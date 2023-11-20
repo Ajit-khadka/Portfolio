@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajit Khadka | Portfolio</title>
+    <link rel="shortcut icon" type="x-icon" href="images/spider1.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="head">
+        <nav class="nav">
+          <div class="logo"><a href="#"> Ajit.dev</a></div>
+          <div class="navlinks">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#aboutMe">About</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <img class="sidenav" src="images/menu.png" onclick="closeNav()" />
+        </nav>
+      </header>
+
+      <sidenav class="sidenavContainerParent">
+        <div class="sidenavContainer">
+          <ul class="sidenavElements">
+            <li class="closePageTransition" onclick="closeNav()">
+              <a href="#">Home</a>
+            </li>
+            <li onclick="closeNav()"><a href="#aboutMe">About</a></li>
+            <li onclick="closeNav()"><a href="#project">Projects</a></li>
+            <li onclick="closeNav()"><a href="#contact">Contact</a></li>
+            <li class="closeSidenav closePageTransition" onclick="closeNav()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="1.5"
+                  d="m8.464 15.535l7.072-7.07m-7.072 0l7.072 7.07"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </sidenav>
+
+      <section id="profile">
+        <div class="blobImage1">
+          <img class="me" src="images/me.png" />
+        </div>
+
+        <div class="topic">
+          <p class="title1">Front-End React <br />Developer 👋🏼</p>
+
+          <div class="description">
+            Hi, I'm Ajit Khadka. A passionate Web Developer based<br
+              class="break"
+            />
+            in Kathmandu, Sundarijal.
+          </div>
+
+          <div class="connectionIcon">
+            <a href="https://www.linkedin.com/in/ajitkhadka/" target="_blank">
+              <img class="linked" src="images/linkedin-logo.png" />
+            </a>
+            <a href="https://github.com/Ajit-khadka" target="_blank">
+              <img class="github" src="images/github.png" />
+            </a>
+          </div>
+        </div>
+        <div class="blobImage">
+          <img class="me" src="images/me.png" />
+        </div>
+      </section>
+
+      <div class="skill">
+        <p>Tech Stack</p>
+        <div class="line"></div>
+        <div class="skillIcons">
+          <img class="html" src="images/html.png" />
+          <img class="" src="images/css.png" />
+          <img class="" src="images/js.png" />
+          <img class="react" src="images/React-icon.svg.png" alt="" />
+          <img class="figma" src="images/figma.png" alt="" />
+        </div>
+      </div>
+
+      <section id="aboutMe">
+        <div class="circle">
+          <div class="icon"></div>
+          <div class="spin">
+            <p class="spiner">FRONT-END WEB DEVELOPER</p>
+          </div>
+        </div>
+        <div class="aboutBack">
+          <img class="setup" src="images/pc-setup.jpg" />
+        </div>
+        <div class="about">
+          <p class="head1">ABOUT ME</p>
+          <p class="head2">
+            A dedicated Web Developer <br />based in Sundarijal, Kathmandu
+          </p>
+          <p class="head3">
+            Motivated and passionate graduate with a solid passion for web
+            development, databases, data mining with a basic understanding of
+            coding and design, and the ability to pick up new software and
+            technologies radpidly. Can collaborate effectively in teams by
+            offering helpful support. HTML, CSS, Figma, React and
+            JavaScript are among my expertise. I am capable of creating websites
+            with a smooth  user experience using frontend languages or Figma. I
+            enjoy designing websites, templates and code them. I also enjoy working with cross-functional teams.
+          </p>
+        </div>
+      </section>
+
+      <section id="project">
+        <div class="project--Invent">
+          <div class="projectHeading">
+            <p class="project--head1">PORTFOLIO</p>
+            <div class="project--head2">Each Project is a one-of-a-kind chapter in development. 🕸️</div>
+          </div>
+       <div class="projectMainContainer">
+        
+        <!-- project 1 -->
+
+        <div class="projectContainer project1">
+          <div class="projectImageContainer1">
+            <img class="projectImageStyle1" src="images/roomRental.png"/>
+          </div>
+          <div class="projectDescription"> 
+            <div class="ProjectDetails">
+            <p class="projectTopic">Room Rental 🏠</p>
+            <div class="projectFeatures--head3">Room Rental is a website made for users who are in need of renting rooms with facilities prior to thier budget and location.</div>
+            <div class="langUsed1"><span>React</span> <span class="space1">TailWind Css</span></div>
+              <div class="langUsed2"><span>Code <a class="decoration" href="https://github.com/sumanhope/room-rental.git" target="_blank">
+                <img class="github githubIcon" src="images/github.png"/>
+              </a></span><span class="space">Project  Demo <a href="https://roomrentalnpr.web.app/" target="_blank">
+                <svg class="github shareIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                  <path d="M 40 10 C 38.896 10 38 10.896 38 12 C 38 13.104 38.896 14 40 14 L 47.171875 14 L 30.585938 30.585938 C 29.804938 31.366938 29.804938 32.633063 30.585938 33.414062 C 30.976938 33.805063 31.488 34 32 34 C 32.512 34 33.023063 33.805062 33.414062 33.414062 L 50 16.828125 L 50 24 C 50 25.104 50.896 26 52 26 C 53.104 26 54 25.104 54 24 L 54 12 C 54 10.896 53.104 10 52 10 L 40 10 z M 18 12 C 14.691 12 12 14.691 12 18 L 12 46 C 12 49.309 14.691 52 18 52 L 46 52 C 49.309 52 52 49.309 52 46 L 52 34 C 52 32.896 51.104 32 50 32 C 48.896 32 48 32.896 48 34 L 48 46 C 48 47.103 47.103 48 46 48 L 18 48 C 16.897 48 16 47.103 16 46 L 16 18 C 16 16.897 16.897 16 18 16 L 30 16 C 31.104 16 32 15.104 32 14 C 32 12.896 31.104 12 30 12 L 18 12 z"></path>
+                  </svg>
+                </a></span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 2 -->
+
+        <div class="projectContainer project2">
+          <div class="projectDescription">
+            <div class="ProjectDetails">
+            <p class="projectTopic">Todo-List 📝</p>
+            <div class="projectFeatures--head3">A simple single page website that allows users to effortlessly list and manage their daily tasks, offering a straightforward interface.  </div>
+            <div class="langUsed1"><span>React</span> <span class="space1">TailWind Css</span></div>
+            <div class="langUsed2"><span>Code<a class="decoration" href="https://github.com/Ajit-khadka/todo-list.git" target="_blank">
+              <img class="github githubIcon" src="images/github.png" />
+            </a> </span><span class="space">Project  Demo <a href="#" target="_blank">
+              <svg class="github shareIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                <path d="M 40 10 C 38.896 10 38 10.896 38 12 C 38 13.104 38.896 14 40 14 L 47.171875 14 L 30.585938 30.585938 C 29.804938 31.366938 29.804938 32.633063 30.585938 33.414062 C 30.976938 33.805063 31.488 34 32 34 C 32.512 34 33.023063 33.805062 33.414062 33.414062 L 50 16.828125 L 50 24 C 50 25.104 50.896 26 52 26 C 53.104 26 54 25.104 54 24 L 54 12 C 54 10.896 53.104 10 52 10 L 40 10 z M 18 12 C 14.691 12 12 14.691 12 18 L 12 46 C 12 49.309 14.691 52 18 52 L 46 52 C 49.309 52 52 49.309 52 46 L 52 34 C 52 32.896 51.104 32 50 32 C 48.896 32 48 32.896 48 34 L 48 46 C 48 47.103 47.103 48 46 48 L 18 48 C 16.897 48 16 47.103 16 46 L 16 18 C 16 16.897 16.897 16 18 16 L 30 16 C 31.104 16 32 15.104 32 14 C 32 12.896 31.104 12 30 12 L 18 12 z"></path>
+                </svg>
+            </a></span></div>
+          </div>
+          </div>
+            <div class="projectImageContainer2">
+            <img class="projectImageStyle1" src="images/todo-list.png"/>
+          </div>
+        </div>
+       </div>
+      </div>
+      </section>
+
+      <section id="contact">
+        <div class="head1">CONTACT</div>
+        <div class="head4">Don't be shy! Hit me up! 🎈</div>
+        <div class="contactBox">
+          <div class="contactme">
+            <div class="location">
+              <img src="images/location.png" />
+              <div class="address">
+                <p class="info">Location</p>
+                <p class="description">Sundarijal, Kathmandu</p>
+              </div>
+            </div>
+            <div class="email">
+              <a href="mailto:khadkaajit34@gmail.com">
+                <img src="images/email.png" />
+              </a>
+              <div class="mail">
+                <p class="info">Mail</p>
+                <p class="description">khadkaajit34@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Copyright © 2023. All rights are reserved</p>
+      </footer>
+    </div>
+
+    <script src="myscripts.js"></script>
+  </body>
+  <script>
+    const closeNav = () => {
+      document.querySelector(".sidenavContainer").classList.toggle("eliminate");
+    };
+
+    
+
+  </script>
+</html>
