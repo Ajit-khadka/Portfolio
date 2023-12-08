@@ -51,6 +51,7 @@
         margin-left: 20px;
     }
 
+
    
 }
 
@@ -227,6 +228,8 @@
     .project2{
         flex-direction: column-reverse;
     }
+
+ 
 }
 
 @media(max-width: 652px){
@@ -426,6 +429,8 @@
         width: 300px;
         /* align-items: center; */
     }
+
+
     
 }
 
@@ -474,6 +479,8 @@
         height: 25px;
         width: 25px;
     }
+
+
 }
 
 @media (max-width:358px) {
@@ -604,6 +611,11 @@
         /* border: 1px solid red; */
         margin-right: 0px;
     }
+
+    .ProjectDetails{
+        margin-top: 0px;
+    }
+
     #contact{
         justify-content: center;
         margin-left: 125px;
@@ -617,6 +629,7 @@
         margin-right: 0px;
         padding-right: 0px;
     }   
+
 }
 
 

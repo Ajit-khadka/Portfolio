@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+   
     /* background: purple; */
 }
 .main{
@@ -9,9 +10,12 @@
     width: 100%;
 }
 html{
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
-    scroll-padding: 15rem;
+    scroll-padding: 12rem;
     overflow-x: hidden;
+   
     
 }
 header{
@@ -20,7 +24,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: rgb(242, 240, 235);
-    z-index: 2;
+    z-index: 1;
 }
 
 body{
@@ -190,6 +194,7 @@ nav{
     justify-content: center;
     margin-top: 250px;
     margin-right: 20px;
+
     /* border: 1px solid red; */
 }
 .setup{
@@ -209,7 +214,7 @@ nav{
     position: absolute  ;
     margin-top: 200px;
     margin-right: 100px;
-    z-index: 1;
+    z-index: 0;
     overflow: hidden;
     
 }
@@ -278,7 +283,7 @@ nav{
     margin-top: 400px;
 } */
 #contact{
-    margin-top: 250px;
+    margin-top: 220px;
     margin-bottom: 100px;
     margin-right: 120px;
     display: flex;
@@ -305,15 +310,17 @@ nav{
     font-weight: bold;
 }
 footer{
-    background-color: black;
     width: 100%;
     padding-right: 1px;
+    z-index: 0;
 }
 .footer{
+    background-color: black;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
 }
 .footer p{
     color: white;
@@ -328,9 +335,14 @@ footer{
 #project{
     /* margin: 0 10% 0 10%; */
     margin-top: 250px;
-    /* scroll-padding: 500px; */
     /* border : 1px solid blue; */
     width: 100%;
+    position: relative;
+    transition-timing-function: ease;
+    transition-duration: 300ms;
+
+   
+
 }
 
 .project--Invent{
@@ -420,6 +432,45 @@ line-height: 25px;
     font-weight: bold;
 }
 
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showProjects, .hideProjects{
+    margin-top: 40px ;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 0px 15px 20px rgb( 0, 0, 0, 0.1);
+    transition-timing-function: ease;
+    transition-duration: 300ms;
+    width: 120px; 
+    text-align: center;
+}
+
+.hideProjects{
+    display: none;
+}
+
+.Show{
+    overflow: hidden;
+    height: 0;
+}
+
+.hideButtonLink{
+    text-decoration: none;
+    color: white;
+}
+
+.showProjects:hover ,   .hideProjects:hover{
+    transform: translateY(-5px);
+  }
+
 .langUsed1{
     margin-top: 25px;
     font-size: 14px;
@@ -429,6 +480,7 @@ line-height: 25px;
 .langUsed2{
     margin-top: 25px;
     font-size: 14px;
+    position: relative;
 }
 
 .githubIcon{
@@ -462,10 +514,12 @@ line-height: 25px;
 }
 
 .ProjectDetails{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 /* project Image */
+
+/* floating Icon */
 
 
 
