@@ -174,19 +174,20 @@ nav{
 .line{
     border-left: 1px solid black;
     height: 20px;
-    margin-left: 15px;
+    margin-left: 10px;
     opacity: 40%;
     margin-right: 30px;
+   
 }
 .skillIcons .figma{
-    height: 27px;
-    width: 27px;
+    height: 24px;
+    width: 24px;
 }
 
 .skill img{
-    height: 30px;
-    width: 30px;
-    margin-left: 50px;
+    height: 26px;
+    width: 26px;
+    margin-left: 40px;
 }
 #aboutMe{
     display: flex;

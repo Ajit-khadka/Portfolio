@@ -129,7 +129,9 @@
     }
     
     .skillIcons{
-        width: 250px;
+        width: 300px;
+        margin-right: 0;
+        text-align: center;
     }
 
     .skillIcons .react{
@@ -494,9 +496,7 @@
         margin-top: 120px;
         margin-right: 0px;
     }
-    .skill{
-        margin-right: 120px;
-    }
+    
     .break{
         display: none;
     }
@@ -596,9 +596,7 @@
         margin-top: 120px;
         margin-right: 0px;
     }
-    .skill{
-        margin-right: 140px;
-    }
+  
     .topic{
         margin-left: 10px;
     }
